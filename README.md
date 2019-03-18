@@ -3,7 +3,7 @@ Basic Python Learning-  python_learning.ipynb file contains
 
 1.Debugging Python - Levels of python
 
-2.Python Collection - a.List b.Set 3.Dictionery c.Tuples
+2.Python Collection - a.List b.Set c.Dictionery d.Tuples
                       Operations on python collection as well as basic features and difference with each other
 											
 3.Lambda Functions (Anonymous Function) - How they work with basic sample
