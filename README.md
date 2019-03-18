@@ -1,7 +1,7 @@
 # python
 Basic Python Learning-  python_learning.ipynb file contains
 
-1.Debugging Python - Levels of python
+1.Debugging Python - Levels of python debugger.
 
 2.Python Collection - a.List b.Set c.Dictionery d.Tuples
                       Operations on python collection as well as basic features and difference with each other
