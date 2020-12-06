@@ -28,3 +28,12 @@ print('............Example6..........')
 scores = [("Jade",21),("Rab",110),("Sylvando",39),("Erik",19)]
 scores.sort(key=lambda t: t[1])
 print('Sorting complex type using lambda'+str(scores))
+
+print('............Example7..........')
+#What a lambda returns
+'''lambda itself returns a function object.'''
+string='some kind of a useless lambda'
+print(lambda string : print(string))
+
+x = "now lambda can be printed'"
+(lambda x : print(x))(x)
