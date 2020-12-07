@@ -379,3 +379,17 @@ print(mySum(10, 20))
 3. There are wrapper functions that require us to pass in variable arguments.
 4. Modification of arguments become easy, but at the same time validation is not proper, so they must be used with care. '''
 
+print('............Example35...........')
+'''sort flatten list of list  '''
+# initializing list of list
+test_list = [[3, 5], [7, 3, 9], [1, 12]]
+
+# printing original list of list
+print("The original list : " + str(test_list))
+
+# using sorted + list comprehension
+# sort flatten list of list
+res = sorted([j for i in test_list for j in i])
+
+# print result
+print("The sorted and flattened list : " + str(res))
